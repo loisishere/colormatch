@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Color Matching Game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="temp/styles/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h2>Color Match</h2>
+        <p>Match the rgb/cmyk/hex value to the color</p>
+        <nav>
+            <input type="radio" name="level" value="Easy" checked><label>Easy</label>
+            <input type="radio" name="level" value="Medium"><label>Medium</label>
+            <input type="radio" name="level" value="Hard"><label>Hard</label>
+            <input type="radio" name="colorvalue" value="RGB" checked><label>RGB</label>
+            <input type="radio" name="colorvalue" value="CMYK"><label>CMYK</label>
+            <input type="radio" name="colorvalue" value="HEX"><label>HEX</label>
+            <button class="header__start">Start Game</button>
+        </nav>
+    </header>
+    <div class="game">
+        <div id="1" class="game__block">
+        </div>
+        <div id="2" class="game__block">
+        </div>
+        <div id="3" class="game__block">
+        </div>
+        <div id="4" class="game__block">
+        </div>
+        <div id="5" class="game__block">
+        </div>
+        <div id="6" class="game__block">
+        </div>
+
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="assets/scripts/app.js"></script>
+
+</body>
+
+</html>
