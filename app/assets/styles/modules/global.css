@@ -1,0 +1,21 @@
+html,
+body {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: darkslategrey;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 18%
+}

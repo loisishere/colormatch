@@ -1,0 +1,15 @@
+.game {
+    width: 100%;
+    height: 78.93%;
+    display: flex;
+    flex-wrap: wrap;
+
+    &__block {
+    height: 50%;
+    margin: 0 auto;
+    background: red;
+    flex: 1;
+    min-width: 33.33333%;
+}
+}
+

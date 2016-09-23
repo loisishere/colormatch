@@ -1,0 +1,40 @@
+{
+    "name": "colorgame",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/loisishere/ColorGameProject.git"
+    },
+    "author": "lois",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/loisishere/ColorGameProject/issues"
+    },
+    "homepage": "https://github.com/loisishere/ColorGameProject#readme",
+    "dependencies": {
+        "jquery": "*",
+        "normalize.css": "*"
+    },
+    "devDependencies": {
+        "gulp-jshint": "*",
+        "autoprefixer": "^6.4.1",
+        "browser-sync": "^2.12.8",
+        "del": "^2.2.2",
+        "gulp": "^3.9.1",
+        "gulp-uglify": "^2.0.0",
+        "gulp-postcss": "^6.2.0",
+        "gulp-watch": "^4.3.9",
+        "postcss-hexrgba": "^0.2.0",
+        "postcss-import": "^8.1.2",
+        "postcss-mixins": "^4.0.2",
+        "postcss-nested": "^1.0.0",
+        "postcss-simple-vars": "^1.2.0",
+        "gulp-cssnano": "^2.1.2",
+        "webpack": "^1.13.1"
+    }
+}
