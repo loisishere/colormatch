@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var color_ans = $(".header__color p");
+    var color_ans = $(".header__color span");
     var color_arr = [],
         level = "3",
         color_val = "RGB",
@@ -40,11 +40,12 @@ $(document).ready(function() {
 
     $('.header__start').on('click', function() {
         game.blocksInit(level, color_val);
+        $('.game__winner').hide();
     });
     $blocks.on('click', function() {
         if ($(this).css('background-color') === color_ans.text()) {
             $blocks.css('background-color', color_ans.text());
-            color_ans.text('winner!');
+            $('.game__winner').show();
 
         }
     });

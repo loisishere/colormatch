@@ -11,7 +11,7 @@
 <body>
     <header>
         <h2>Color Match</h2>
-        <p>Match the rgb/cmyk/hex value to the color</p>
+        Match the rgb/cmyk/hex value to the color
         <nav>
             <input type="radio" name="level" value="3" checked><label>Easy</label>
             <input type="radio" name="level" value="6"><label>Medium</label>
@@ -21,9 +21,7 @@
             <input type="radio" name="colorvalue" value="HEX"><label>HEX</label>
             <button class="header__start">Start Game</button>
         </nav>
-        <div class="header__color">Color:
-            <p>.</p>
-        </div>
+        <div class="header__color">Color:<span>.</span></div>
     </header>
     <div class="game">
         <div id="1" class="game__block"></div>
@@ -42,7 +40,7 @@
         </div>
         <div id="9" class="game__block">
         </div>
-
+        <div class="game__winner">Winner</div>
     </div>
     <script src="../node_modules/jquery/dist/jquery.js"></script>
     <script src="assets/scripts/app.js"></script>
