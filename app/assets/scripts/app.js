@@ -6,4 +6,11 @@ $(document).ready(function() {
     $('.header__start').on('click', function() {
         game.start();
     });
+    $blocks.on('click', function() {
+        if (game.checkWinner($(this).css('background-color'))) {
+            console.log('winner');
+        } else {
+            console.log('keep trying');
+        };
+    })
 });

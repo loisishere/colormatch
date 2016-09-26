@@ -9,7 +9,8 @@ body {
 body {
     margin: 0 auto;
     padding: 0;
-    background-color: darkslategrey;
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 165, 2);
 }
 
 * {
